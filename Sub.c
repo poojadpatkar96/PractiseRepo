@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main()
 {
-  int x, y, sub;
+
+  int x1, y, sub;
 
   printf("Enter two numbers to add\n");
-  scanf("%d%d", &x, &y);
+  scanf("%d%d", &x1, &y);
 
-  sub = x - y;
+  sub = x1 - y;
+
 
   printf("Sum of the numbers = %d\n", sub);
 
